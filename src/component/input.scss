@@ -1,0 +1,41 @@
+.tasks {
+  .add-input {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    background-color: #6c63ff;
+    border-radius: 10px;
+    text-align: center;
+
+    input {
+      width: 450px;
+      height: 30px;
+      border-radius: 10px;
+      border: none;
+      background-color: white;
+      outline: none;
+      box-shadow: 0 0 10px 1px lightgray;
+      padding: 5px;
+    }
+
+    .button-add {
+      width: 70px;
+      height: 40px;
+      background-color: crimson;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      margin: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0px 10px 1px red;
+      }
+    }
+  }
+}

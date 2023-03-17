@@ -1,0 +1,21 @@
+.container-select {
+  select {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    box-shadow: 0 5px 10px 0.5px rgb(154, 0, 31);
+    cursor: pointer;
+
+    option {
+      background-color: crimson;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
